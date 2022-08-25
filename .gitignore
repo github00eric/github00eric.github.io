@@ -1,0 +1,7 @@
+_site/
+
+# ignore idea cache
+.idea/
+
+# ignore obsidian cache
+.obsidian/
