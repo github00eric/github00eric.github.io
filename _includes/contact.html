@@ -1,11 +1,11 @@
 <section class="hero is-fullheight has-text-centered" id="contact">
     <div class="hero-body">
         <div class="container">
-            {% unless site.facebook_username == %}
-            <a id="contact-button" href="https://m.me/{{site.facebook_username}}"
+            {% unless site.bilibili_uid == %}
+            <a id="contact-button" href="https://space.bilibili.com/{{site.bilibili_uid}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
                 target="_blank">
-                <i class="fab fa-facebook-messenger"></i>Ping me on Messenger
+                <i class="fa-brands fa-bilibili"></i>Find me on Bilibili
             </a>
             {% endunless %}
             {% unless site.email == %}

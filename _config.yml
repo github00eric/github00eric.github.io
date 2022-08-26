@@ -1,5 +1,17 @@
 # ----------------------------------------------------------------------------------------------------
 # 如果有一些简单的网页改动，效果预览可以前往 https://www.w3schools.com/icons/tryit.asp?icon=fab_fa-twitter&unicon=f099
+# 已知的html布局：
+# 
+# /_includes/head.html      浏览器标签栏
+# 
+# /_includes/about.html     关于作者页面
+# /_includes/contact.html   联系作者页面
+# /_includes/dropdown.html  下拉菜单布局，使用 {% include dropdown.html %}
+# /_includes/footer.html    网站底边栏
+# /_includes/navbar.html    网页顶部导航栏
+
+# 配置表
+# /_data/projects.yml       在Project页面中展示的Project配置
 # ----------------------------------------------------------------------------------------------------
 
 # WhatATheme
@@ -30,7 +42,8 @@ heroimage: /assets/images/Background.jpeg # https://images.pexels.com/photos/220
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: / # thedevslot@gmail.com
-facebook_username: / # thedevslot
+bilibili_uid: /
+facebook_username: # thedevslot
 twitter_username: / # thedevslot
 instagram_username: # thedevslot
 linkedin_username: / # thedevslot
@@ -44,7 +57,7 @@ spotify_username:
 # Google Analytics
 google-analytics: # UA-163806439-1
 
-# Disqus
+# Disqus 这是一个网站留言系统 官网 https://disqus.com/
 disqus-shortname: # thedevslot
 
 # 这个 about me 页面的功能可以前往 /_includes/about.html 文件进一步修改
