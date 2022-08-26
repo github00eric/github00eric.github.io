@@ -1,3 +1,7 @@
+# ----------------------------------------------------------------------------------------------------
+# 如果有一些简单的网页改动，效果预览可以前往 https://www.w3schools.com/icons/tryit.asp?icon=fab_fa-twitter&unicon=f099
+# ----------------------------------------------------------------------------------------------------
+
 # WhatATheme
 markdown: kramdown
 
@@ -20,19 +24,22 @@ favicon-url:
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: /assets/images/Background.jpeg # https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 
+# 这个 contact me 页面的功能可以前往 /_includes/contact.html 文件进一步修改
+# 定制页面图标可以前往 https://fontawesome.com/ 查看，替换其中类似 <i class="fab fa-facebook"> 的字段
+# ----------------------------------------------------------------------------------------------------
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: / # thedevslot@gmail.com
 facebook_username: / # thedevslot
 twitter_username: / # thedevslot
 instagram_username: # thedevslot
-linkedin_username: # thedevslot
-github_username:  # thedevslot
-youtube_channel_id: # UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+linkedin_username: / # thedevslot
+github_username: / # thedevslot
+youtube_channel_id: / # UCk_93NXYP-U_AOB5GfWlOow
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 
 
 # Google Analytics
 google-analytics: # UA-163806439-1
@@ -40,6 +47,8 @@ google-analytics: # UA-163806439-1
 # Disqus
 disqus-shortname: # thedevslot
 
+# 这个 about me 页面的功能可以前往 /_includes/about.html 文件进一步修改
+# ----------------------------------------------------------------------------------------------------
 # Name of the Author
 author-name: TheDevsLot
 # URL for the Image of the Author
