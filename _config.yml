@@ -41,6 +41,7 @@ heroimage: /assets/images/website/Background.jpeg # https://images.pexels.com/ph
 # ----------------------------------------------------------------------------------------------------
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
+# 如果想留下图标但不加数据，可以给个 / 符号
 email: / # thedevslot@gmail.com
 bilibili_uid: 32729713
 facebook_username: # thedevslot
