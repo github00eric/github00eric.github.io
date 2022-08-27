@@ -71,3 +71,6 @@ build-iPhoneSimulator/
 
 # ignore idea cache
 .idea/
+
+# ignore obsidian workspace cache
+.obsidian/workspace
