@@ -34,7 +34,7 @@ site-keywords: Blog, Game, Game Dev, Unity,
 favicon-url: /assets/images/website/my_logo.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: /assets/images/Background.jpeg # https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: /assets/images/website/Background.jpeg # https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 
 # 这个 contact me 页面的功能可以前往 /_includes/contact.html 文件进一步修改
 # 定制页面图标可以前往 https://fontawesome.com/ 查看，替换其中类似 <i class="fab fa-facebook"> 的字段
