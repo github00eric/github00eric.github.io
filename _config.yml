@@ -42,14 +42,13 @@ heroimage: /assets/images/website/Background.jpeg # https://images.pexels.com/ph
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 # 如果想留下图标但不加数据，可以给个 / 符号
-email: / # thedevslot@gmail.com
 bilibili_uid: 32729713
 facebook_username: # thedevslot
-twitter_username: / # thedevslot
+twitter_username:  # thedevslot
 instagram_username: # thedevslot
-linkedin_username: / # thedevslot
-github_username: / # thedevslot
-youtube_channel_id: / # UCk_93NXYP-U_AOB5GfWlOow
+linkedin_username:  # thedevslot
+github_username:  # thedevslot
+youtube_channel_id:  # UCk_93NXYP-U_AOB5GfWlOow
 reddit_username: 
 behance_username: 
 dribbble_username: 
