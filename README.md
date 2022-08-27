@@ -5,4 +5,12 @@
 
 - 文件模板位于：`../assets/templates/`
 - 图片请放置在：`../assets/images/` 
-- 更多内容页面请放置在根目录：`../`
+- 更多内容页面请放置在：`../more/`
+- Project的配置表在： `../_data/projects.yml` 中，添加和配置下列内容可改动Project页面：
+```
+- name: 
+  link:
+  image: 
+  description: 
+
+```
