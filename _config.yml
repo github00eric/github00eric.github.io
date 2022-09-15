@@ -66,7 +66,7 @@ disqus-shortname: # thedevslot
 # Name of the Author
 author-name: Eric Chen
 # URL for the Image of the Author
-author-image: /assets/images/head.webp # /assets/images/logo.png # https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: /assets/images/website/head.webp # /assets/images/logo.png # https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 # 60 Words About the Author
 author-about: 一个兴趣使然的菜鸡游戏制作人。
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
