@@ -12,6 +12,10 @@
 
 # 配置表
 # /_data/projects.yml       在Project页面中展示的Project配置
+# 
+# 子功能
+# Disqus 网站留言系统 | disqus-shortname
+# Google Analytics 数据分析 | google-analytics
 # ----------------------------------------------------------------------------------------------------
 
 # WhatATheme
