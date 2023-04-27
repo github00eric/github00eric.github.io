@@ -18,14 +18,14 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://blogcn.standby4xeee.top'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
 # Title of the Site
 title: Eric Chen 的笔记工厂
 # Description of the Site
-description: 对无法言说之物，应保持沉默
+description: 人生而自由，却无往不在枷锁之中
 # URL of Image of the Site
 site-image: /assets/images/meta.png
 # Keywords of the Site
