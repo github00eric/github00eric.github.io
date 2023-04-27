@@ -12,9 +12,12 @@
 
 # 配置表
 # /_data/projects.yml       在Project页面中展示的Project配置
+# 
+# 子功能
+# Disqus 网站留言系统 | disqus-shortname
+# Google Analytics 数据分析 | google-analytics
 # ----------------------------------------------------------------------------------------------------
 
-# WhatATheme
 markdown: kramdown
 
 # URL of the Site
@@ -76,37 +79,25 @@ author-url: https://github.com/github00eric
 sass:
   sass_dir: _sass
   style: compressed
-
-# Build settings
 plugins:
   - jekyll-admin
   - jekyll-feed
-
-# Permalink
-permalink: "blog/:title"
-
-# Compress
+permalink: 'blog/:title'
 compress_html:
   clippings: all
-
-# Defaults
 defaults:
-  -
-    scope:
-      type: 'posts'
+  - scope:
+      type: posts
     values:
       layout: post
-      post-image: ""
-      description: ""
+      post-image: ''
+      description: ''
       tags:
-        - ""
-  -
-    scope:
-      type: 'pages'
+        - ''
+  - scope:
+      type: pages
     values:
       layout: page
-
-# Exclude
 exclude:
   - .sass-cache/
   - .jekyll-cache/
