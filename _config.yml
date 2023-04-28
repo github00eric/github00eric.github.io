@@ -18,7 +18,6 @@
 # Google Analytics 数据分析 | google-analytics
 # ----------------------------------------------------------------------------------------------------
 
-# WhatATheme
 markdown: kramdown
 
 # URL of the Site
@@ -27,18 +26,18 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: Title of the Site
+title: Eric Chen 的笔记工厂
 # Description of the Site
-description: Description of the Site
+description: 人生而自由，却无往不在枷锁之中
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /assets/images/meta.png
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: Blog, Game, Game Dev, Unity,
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: /assets/images/website/my_logo.webp
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: /assets/images/Background.jpeg # https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: /assets/images/website/Background.webp # https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 
 # 这个 contact me 页面的功能可以前往 /_includes/contact.html 文件进一步修改
 # 定制页面图标可以前往 https://fontawesome.com/ 查看，替换其中类似 <i class="fab fa-facebook"> 的字段
@@ -46,14 +45,14 @@ heroimage: /assets/images/Background.jpeg # https://images.pexels.com/photos/220
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 # 如果想留下图标但不加数据，可以给个 / 符号
-email: / # thedevslot@gmail.com
-bilibili_uid: /
+email: eric01cbymikufan@outlook.com # thedevslot@gmail.com
+bilibili_uid: 32729713
 facebook_username: # thedevslot
-twitter_username: / # thedevslot
+twitter_username:  # thedevslot
 instagram_username: # thedevslot
-linkedin_username: / # thedevslot
-github_username: / # thedevslot
-youtube_channel_id: / # UCk_93NXYP-U_AOB5GfWlOow
+linkedin_username:  # thedevslot
+github_username:  # thedevslot
+youtube_channel_id:  # UCk_93NXYP-U_AOB5GfWlOow
 reddit_username: 
 behance_username: 
 dribbble_username: 
@@ -68,49 +67,37 @@ disqus-shortname: # thedevslot
 # 这个 about me 页面的功能可以前往 /_includes/about.html 文件进一步修改
 # ----------------------------------------------------------------------------------------------------
 # Name of the Author
-author-name: TheDevsLot
+author-name: Eric Chen
 # URL for the Image of the Author
-author-image: /assets/images/logo.png # https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: /assets/images/website/head.webp # /assets/images/logo.png # https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: 一个兴趣使然的菜鸡游戏制作人。
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://github.com/github00eric
 
 # SASS
 sass:
   sass_dir: _sass
   style: compressed
-
-# Build settings
 plugins:
   - jekyll-admin
   - jekyll-feed
-
-# Permalink
-permalink: "blog/:title"
-
-# Compress
+permalink: 'blog/:title'
 compress_html:
   clippings: all
-
-# Defaults
 defaults:
-  -
-    scope:
-      type: 'posts'
+  - scope:
+      type: posts
     values:
       layout: post
-      post-image: ""
-      description: ""
+      post-image: ''
+      description: ''
       tags:
-        - ""
-  -
-    scope:
-      type: 'pages'
+        - ''
+  - scope:
+      type: pages
     values:
       layout: page
-
-# Exclude
 exclude:
   - .sass-cache/
   - .jekyll-cache/
